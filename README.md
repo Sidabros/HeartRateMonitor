@@ -1,5 +1,6 @@
 # Nextion-GUI-Development for Monitoring Heart Rate
-This project involves Arduino, signal processing circuit for detecting heart beat and HMI files on GUI development for NEXTION Touchscreen
+This project involves Arduino, signal processing circuit for detecting heart beat and HMI files on GUI development for NEXTION Touchscreen.Brief footage of the system can be seen through "InShot_20170124_183337.mp4" video file.
+
 The code to measure and detect the heart beat is used from PulseSensor open source codes " https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino "and modified by me to use with Nextion 2.4" TFT screen.
 
 Therefore you can use Pulse Sensor instead of designing a signal processing circuit for detecting a hert beat. There will be no necessity for coding modification for Pulse Sensor usage. Just connect data output of the sensor to Analog Input A0 on the arduino board. And you can use Arduino Uno for this project by simply loading the code for Arduino/Genuino Uno.
